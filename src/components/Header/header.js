@@ -11,6 +11,7 @@ function Header() {
 					{/* <div className="resume" target="_blank" href={resume}>
 						Resume
 					</div> */}
+					<div className="projects">Skills</div>
 					<div className="projects">Projects</div>
 					<div className="contact">Contact</div>
 				</nav>

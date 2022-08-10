@@ -199,7 +199,7 @@ a {
 }
 
 .roundBoys li:nth-child(8){
-    left: 50%;
+    left: 55%;
     width: 25px;
     height: 25px;
     animation-delay: 15s;
@@ -276,7 +276,7 @@ a {
 }
 
 @media screen and (max-width: 1100px) {
-    .nameAndPicture {
+    .nameAndPic {
         flex-direction: column;
         gap: 3rem;
     }
@@ -288,7 +288,7 @@ a {
         width: 100%;
     }
 
-    .resumeTag, .projectsTag, .contactTag {
+    .resume, .projects, .contact {
         width: 25%;
     }
 
@@ -299,7 +299,7 @@ a {
         gap: 1rem;
     }
 
-    .myName {
+    .nameHeader {
         font-size: 4rem;
         display: flex;
         justify-content: center;
@@ -307,7 +307,7 @@ a {
         text-align: center;
     }
 
-    .myTitle {
+    .titleHeader {
         display: flex;
         justify-content: center;
         align-items: center;

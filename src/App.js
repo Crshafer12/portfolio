@@ -4,6 +4,10 @@ import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/contact";
 import { useRef } from "react";
 
+// function createCard(contact) {
+// 	return <ContactCard img={contact.img} />;
+// }
+
 function App() {
 	const headerRef = useRef();
 	const skillsRef = useRef();

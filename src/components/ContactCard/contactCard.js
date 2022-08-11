@@ -3,10 +3,10 @@ import React from "react";
 import test from "../../images/Capture.png";
 import "./contactCard.css";
 
-function ContactCard() {
+function ContactCard(props) {
 	return (
 		<div className="contactCardSection">
-			<img src={test} alt="test"></img>
+			<img src={props.img} alt="test"></img>
 		</div>
 	);
 }

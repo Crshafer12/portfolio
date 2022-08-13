@@ -23,6 +23,27 @@ function contact() {
 				<div>
 					<img src={test} alt="Linkedin"></img>
 				</div>
+				<div>
+					<img src={test} alt="Github"></img>
+				</div>
+				<div>
+					<img src={test} alt="Linkedin"></img>
+				</div>
+				<div>
+					<img src={test} alt="Github"></img>
+				</div>
+				<div>
+					<img src={test} alt="Linkedin"></img>
+				</div>
+				<div>
+					<img src={test} alt="Github"></img>
+				</div>
+				<div>
+					<img src={test} alt="Linkedin"></img>
+				</div>
+				<div>
+					<img src={test} alt="Github"></img>
+				</div>
 			</div>
 		</div>
 	);

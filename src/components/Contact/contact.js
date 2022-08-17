@@ -28,6 +28,11 @@ function contact() {
 					<div>Check out my Github</div>
 				</div>
 			</div>
+			<div className="footerBottom">
+				<div className="footerBottomLine"></div>
+				<div className="bottomName">Corey Shafer</div>
+				<div className="footerBottomLine"></div>
+			</div>
 		</div>
 	);
 }

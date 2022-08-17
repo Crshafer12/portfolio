@@ -13,36 +13,19 @@ function contact() {
 				</div>
 				<div className="headerRight">Contact me description.</div>
 			</header>
-			<div>
-				<span>email</span>
-			</div>
-			<div id="grid">
-				<div>
-					<img src={test} alt="Github"></img>
+
+			<div className="connectItems">
+				<div className="connectItem">
+					<img src={test} alt="Email"></img>
+					<div>Email Me</div>
 				</div>
-				<div>
+				<div className="connectItem">
 					<img src={test} alt="Linkedin"></img>
+					<div>Connect on Linkedin</div>
 				</div>
-				<div>
-					<img src={test} alt="Github"></img>
-				</div>
-				<div>
-					<img src={test} alt="Linkedin"></img>
-				</div>
-				<div>
-					<img src={test} alt="Github"></img>
-				</div>
-				<div>
-					<img src={test} alt="Linkedin"></img>
-				</div>
-				<div>
-					<img src={test} alt="Github"></img>
-				</div>
-				<div>
-					<img src={test} alt="Linkedin"></img>
-				</div>
-				<div>
-					<img src={test} alt="Github"></img>
+				<div className="connectItem">
+					<img src={test} alt="Gthub"></img>
+					<div>Check out my Github</div>
 				</div>
 			</div>
 		</div>

@@ -3,10 +3,10 @@ import selfie from "../../images/Capture.png";
 //import resume from "../Resume.pdf";
 import "./main.css";
 
-function Main() {
+function Main({ refProp }) {
 	return (
 		<>
-			<div className="mainDiv">
+			<div className="mainDiv" ref={refProp}>
 				<div classname="navBarPlaceholder"></div>
 				<div className="nameAndPic">
 					<div className="nameAndTitle">

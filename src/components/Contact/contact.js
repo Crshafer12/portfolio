@@ -3,14 +3,12 @@ import "bootstrap/dist/css/bootstrap.css";
 import test from "../../images/Capture.png";
 import "./contact.css";
 
-function contact({ contactProp }) {
+function contact({ refProp }) {
 	return (
-		<div className="contactSection" ref={contactProp}>
+		<div className="contactSection" ref={refProp}>
 			<header className="headerAndDescription">
-				<div className="headerLine">
-					<div className="headerLeft">Contact Me</div>
-					<div className="dividerLine"></div>
-				</div>
+				<div className="headerLeft">Contact Me</div>
+				<div className="dividerLine"></div>
 				<div className="headerRight">Contact me description.</div>
 			</header>
 

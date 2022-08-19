@@ -9,27 +9,27 @@
     position: sticky;
 }
 
-.resume, .projects, .contact, .skills, .main {
+.resumeTab, .projectsTab, .contactTab, .skillsTab, .mainTab {
     text-align: center;
 }
 
-.projects:hover, .contact:hover, .resume:hover, .skills:hover, .main:hover {
+.projectsTab:hover, .contactTab:hover, .resumeTab:hover, .skillsTab:hover, .mainTab:hover {
     cursor: pointer;
 }
 
-.resume::before {
+.resumeTab::before {
     content: "Resume";
 }
 
-.resume:hover::before {
+.resumeTab:hover::before {
     content: none;
 }
 
-.resume:hover::after {
+.resumeTab:hover::after {
     content: "View in Browser";
 }
 
-.resume, .projects, .contact, .skills, .main {
+.resumeTab, .projectsTab, .contactTab, .skillsTab, .mainTab {
     width: 10%;
 }
 
@@ -60,7 +60,7 @@
         width: 100%;
     }
 
-    .resume, .projects, .contact, .skills, .main{
+    .resumeTab, .projectsTab, .contactTab, .skillsTab, .mainTab{
         width: 25%;
     }
 

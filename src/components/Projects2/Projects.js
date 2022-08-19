@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 import img from "../../images/placeholder.PNG";
 
 import data from "./projects.json";
-const Projects = () => {
+const Projects = ({ refProp }) => {
 	const [projects, setProjects] = useState([]);
 
 	useEffect(() => {
@@ -26,8 +26,13 @@ const Projects = () => {
 	}, []);
 
 	return (
-		<div>
-			<header className="title">Projects</header>
+		<div className="projectSection" ref={refProp}>
+			<div className="projectsHeader">
+				<div className="titleAndLine">
+					<div className="headSpace title">Projects</div>
+					<div className="projectsDividerLine"></div>
+				</div>
+			</div>
 			<div id="mywork" className="anchorMargin" />
 			<div className="container">
 				<div className="projects">{projects}</div>

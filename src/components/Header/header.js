@@ -35,16 +35,16 @@ function Header({ refProp, mainProp, skillsProp, projectsProp, contactProp }) {
 					{/* <div className="resume" target="_blank" href={resume}>
 						Resume
 					</div> */}
-					<div className="main" onClick={scrollToMain}>
+					<div className="mainTab" onClick={scrollToMain}>
 						Home
 					</div>
-					<div className="skills" onClick={scrollToSkills}>
+					<div className="skillsTab" onClick={scrollToSkills}>
 						Skills
 					</div>
-					<div className="projects" onClick={scrollToProjects}>
+					<div className="projectsTab" onClick={scrollToProjects}>
 						Projects
 					</div>
-					<div className="contact" onClick={scrollToContact}>
+					<div className="contactTab" onClick={scrollToContact}>
 						Contact
 					</div>
 				</nav>

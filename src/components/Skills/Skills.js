@@ -7,9 +7,9 @@ import js from "../../images/Capture.png";
 import react from "../../images/Capture.png";
 import "./Skills.css";
 
-function Skills() {
+function Skills({ refProp }) {
 	return (
-		<div className="skillsDiv">
+		<div className="skillsDiv" ref={refProp}>
 			<header className="skillsHeader">
 				<div className="skillsAndLine">
 					<div className="skillsHeaderLeft">Skills</div>

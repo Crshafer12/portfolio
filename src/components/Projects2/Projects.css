@@ -1,8 +1,46 @@
+.headSpace{
+  margin-top: 5rem;
+}
+
+.projectSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.projectsDividerLine {
+  height: 2px;
+  background-color: #f8efd4;
+  width: 100%;
+}
+
+.projectsHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  width: 70%;
+  margin-top: 100px;
+}
+
+.titleAndLine {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 70px;
+  
 }
 
 .anchorMargin {
@@ -14,6 +52,7 @@
 .title {
   display: flex;
   justify-content: center;
+  font-size: 5rem;
 }
 
 

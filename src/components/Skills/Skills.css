@@ -13,7 +13,7 @@
     flex-direction: column;
     gap: 100px;
     width: 70%;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .skillsAndLine {
@@ -28,7 +28,7 @@
 .skillsDividerLine {
     height: 2px;
     background-color: #f8efd4;
-    width: 50%;
+    width: 100%;
 }
 
 .skillsHeaderLeft {

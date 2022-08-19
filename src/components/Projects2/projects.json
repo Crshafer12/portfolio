@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Project 1: The First Project",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgAddress": "../../images/placeholder.PNG",
+        "githubLink": "https://github.com/Crshafer12/portfolio",
+        "demoLink": "",
+        "stack": ["Javascript","React.js","Node.js" ]
+    },
+    {
+        "title": "Project 2: The Second Project",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgAddress": "../../images/Capture.png",
+        "githubLink": "https://github.com/Crshafer12/portfolio",
+        "demoLink": "",
+        "stack": ["Javascript","React.js","Node.js" ]
+    }
+
+] 

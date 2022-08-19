@@ -3,9 +3,9 @@ import "bootstrap/dist/css/bootstrap.css";
 import test from "../../images/Capture.png";
 import "./contact.css";
 
-function contact() {
+function contact({ contactProp }) {
 	return (
-		<div className="contactSection">
+		<div className="contactSection" ref={contactProp}>
 			<header className="headerAndDescription">
 				<div className="headerLine">
 					<div className="headerLeft">Contact Me</div>

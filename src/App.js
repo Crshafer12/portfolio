@@ -18,7 +18,7 @@ function App() {
 	const contactRef = useRef();
 	return (
 		<div className="app">
-			<Header refProp={headerRef} />
+			<Header refProp={headerRef} mainProp={mainRef} skillsProp={skillsRef} projectsProp={projectsRef} contactProp={contactRef} />
 			<Main refProp={mainRef} />
 			<Skills refProp={skillsRef} />
 			<Projects refProp={projectsRef} />

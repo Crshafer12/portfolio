@@ -9,11 +9,11 @@
     position: sticky;
 }
 
-.resume, .contact, .projects {
+.resume, .projects, .contact, .skills, .main {
     text-align: center;
 }
 
-.projects:hover, .contact:hover, .resume:hover {
+.projects:hover, .contact:hover, .resume:hover, .skills:hover, .main:hover {
     cursor: pointer;
 }
 
@@ -29,7 +29,7 @@
     content: "View in Browser";
 }
 
-.projects, .contact, .resume {
+.resume, .projects, .contact, .skills, .main {
     width: 10%;
 }
 
@@ -60,7 +60,7 @@
         width: 100%;
     }
 
-    .resume, .projects, .contact {
+    .resume, .projects, .contact, .skills, .main{
         width: 25%;
     }
 

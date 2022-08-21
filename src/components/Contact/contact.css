@@ -33,6 +33,11 @@
 
 .connectItem {
  max-width: 226px;
+ margin: 1rem;
+}
+
+.connectItemLabel {
+ font-size: 2rems;
 }
 
 .headerLine {

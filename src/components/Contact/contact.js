@@ -29,6 +29,7 @@ function contact({ refProp }) {
 						}}
 					></img>
 					<div
+						className="connectItemLabel"
 						onClick={() => {
 							openTab("mailto:shaf2609@kettering.edu.com");
 						}}
@@ -46,6 +47,7 @@ function contact({ refProp }) {
 						}}
 					></img>
 					<div
+						className="connectItemLabel"
 						onClick={() => {
 							openTab("http://www.linkedin.com/in/corey-shafer");
 						}}
@@ -63,6 +65,7 @@ function contact({ refProp }) {
 						}}
 					></img>
 					<div
+						className="connectItemLabel"
 						onClick={() => {
 							openTab("http://www.github.com/Crshafer12");
 						}}

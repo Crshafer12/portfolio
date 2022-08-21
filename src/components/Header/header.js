@@ -1,5 +1,5 @@
 import React from "react";
-//import resume from "../Resume.pdf";
+import resume from "../../test.pdf";
 import "./header.css";
 
 function Header({ refProp, mainProp, skillsProp, projectsProp, contactProp }) {
@@ -32,9 +32,14 @@ function Header({ refProp, mainProp, skillsProp, projectsProp, contactProp }) {
 		<>
 			<div>
 				<nav className="navBar">
-					{/* <div className="resume" target="_blank" href={resume}>
-						Resume
-					</div> */}
+					{/* Dont think this works right */}
+					<div
+						className="resumeTab"
+						target="_blank"
+						onClick={() => {
+							openTab({ resume });
+						}}
+					></div>
 					<div className="mainTab" onClick={scrollToMain}>
 						Home
 					</div>

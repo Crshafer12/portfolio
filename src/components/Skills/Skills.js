@@ -1,10 +1,12 @@
 import React from "react";
-import HTML from "../../images/Capture.png";
-import css from "../../images/Capture.png";
-import git from "../../images/Capture.png";
-import github from "../../images/Capture.png";
-import js from "../../images/Capture.png";
-import react from "../../images/Capture.png";
+import HTML from "../../images/Html.png";
+import css from "../../images/Css.png";
+import git from "../../images/Git.png";
+import github from "../../images/GitHub.png";
+import js from "../../images/Js.png";
+import react from "../../images/React.png";
+import mongoDB from "../../images/MongoDB.png";
+import node from "../../images/Node.png";
 import "./Skills.css";
 
 function Skills({ refProp }) {
@@ -37,14 +39,18 @@ function Skills({ refProp }) {
 							<img src={react} alt="react"></img>
 							<span>React</span>
 						</div>
-						{/* <div className="skillItem">
+						<div className="skillItem">
 							<img src={node} alt="node,js"></img>
 							<span>Node.js</span>
 						</div>
-            <div className="skillItem">
+						{/* <div className="skillItem">
 							<img src={EJS} alt="EJS"></img>
 							<span>EJS</span>
 						</div> */}
+						<div className="skillItem">
+							<img src={mongoDB} alt="EJS"></img>
+							<span>MongoDB</span>
+						</div>
 					</div>
 				</div>
 				<div className="skillsBodyRight">

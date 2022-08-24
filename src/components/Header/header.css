@@ -10,6 +10,11 @@
     width: 60%;
 }
 
+#bruh {
+    text-decoration: none;
+    color: #7bd6fa;
+}
+
 .resumeTab, .projectsTab, .contactTab, .skillsTab, .mainTab {
     text-align: center;
     width: 10rem;

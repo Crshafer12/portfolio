@@ -32,14 +32,8 @@ function Header({ refProp, mainProp, skillsProp, projectsProp, contactProp }) {
 		<>
 			<div>
 				<nav className="navBar">
-					{/* Dont think this works right */}
-					<div
-						className="resumeTab"
-						target="_blank"
-						onClick={() => {
-							openTab({ resume });
-						}}
-					></div>
+					<a className="resumeTab" id="bruh" target="_blank" href={resume}></a>
+
 					<div className="mainTab" onClick={scrollToMain}>
 						Home
 					</div>

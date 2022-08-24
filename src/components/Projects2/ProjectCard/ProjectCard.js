@@ -1,6 +1,7 @@
 import React from "react";
 //import Icon from "@material-ui/core/Icon";
-import temp from "../../../images/Capture.png";
+import github from "../../../images/GitHubBlack.png";
+import live from "../../../images/share.png";
 
 import "./ProjectCard.css";
 
@@ -9,7 +10,7 @@ const ProjectCard = ({ projectTitle, projectDescription, projectImgAddress, gitH
 	if (gitHubLink !== "") {
 		gitHubIcon = (
 			<a href={gitHubLink} target="_blank" rel="noopener noreferrer">
-				{/* <Icon className="fab fa-github" /> */}
+				<img className="gitButton" src={github} alt="Linkedin"></img>
 				<span>GITHUB</span>
 			</a>
 		);
@@ -19,7 +20,7 @@ const ProjectCard = ({ projectTitle, projectDescription, projectImgAddress, gitH
 	if (demoLink !== "") {
 		demoIcon = (
 			<a href={demoLink} target="_blank" rel="noopener noreferrer">
-				{/* <Icon className="fas fa-external-link-alt" /> */}
+				<img className="gitButton" src={live} alt="Live Share button from Pixel Perfect"></img>
 				<span>LIVE</span>
 			</a>
 		);

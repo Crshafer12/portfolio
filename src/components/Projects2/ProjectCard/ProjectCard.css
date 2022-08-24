@@ -99,7 +99,7 @@
 .links a:active {
   background-color: #00897b;
   border-color: #00897b;
-  color: #fff;
+  color: #000000;
 }
 
 @media screen and (max-width: 800px) {
@@ -121,6 +121,11 @@
 .underline {
   display: inline-block;
   position: relative;
+}
+
+.gitButton{
+  height: 2rem;
+  margin-right: 1rem;
 }
 
 @keyframes fadein {

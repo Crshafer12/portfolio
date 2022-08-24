@@ -144,7 +144,7 @@ a {
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgb(123, 157, 165);
+    background: #4f8296;
     animation: animate 25s linear infinite;
     bottom: -130px;
     z-index: 1;

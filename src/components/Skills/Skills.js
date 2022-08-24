@@ -19,7 +19,7 @@ function Skills({ refProp }) {
 				</div>
 				<div className="skillsHeaderRight">Experienced in building modern web applications and reusable user interface components using React.js, Javascript, HTML, and CSS.</div>
 			</header>
-			<div className="skillsBody">
+			{/* <div className="skillsBody">
 				<div className="skillsBodyLeft">
 					<div className="skillsBodyLeftHeader">Languages and Frameworks</div>
 					<div className="skillsBodyLeftItems">
@@ -47,12 +47,12 @@ function Skills({ refProp }) {
 							<img src={EJS} alt="EJS"></img>
 							<span>EJS</span>
 						</div> */}
-						<div className="skillItem">
+			{/* <div className="skillItem">
 							<img src={mongoDB} alt="EJS"></img>
 							<span>MongoDB</span>
 						</div>
-					</div>
-				</div>
+					</div> */}
+			{/* </div>
 				<div className="skillsBodyRight">
 					<div className="skillsBodyRightHeader">Development Tools</div>
 					<div className="skillsBodyRightItems">
@@ -65,48 +65,43 @@ function Skills({ refProp }) {
 							<span>Github</span>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div className="contactSection" ref={refProp}>
-				<div className="connectItems">
+				</div> */}
+			{/* </div> */}
+			<div className="skillsSection" ref={refProp}>
+				<div className="skillsItems">
 					<div>
-						<img className="connectItem" src={HTML} alt="Gmail logo"></img>
-						<div className="connectItemLabel">HTML5</div>
+						<img className="skillItem" src={HTML} alt="Gmail logo"></img>
+						<div className="skillItemLabel">HTML5</div>
 					</div>
 					<div>
-						<img className="connectItem" src={css} alt="Linkedin"></img>
-						<div className="connectItemLabel">CSS3</div>
+						<img className="skillItem" src={css} alt="Linkedin"></img>
+						<div className="skillItemLabel">CSS3</div>
 					</div>
 					<div>
-						<img className="connectItem" src={js} alt="Github"></img>
-						<div className="connectItemLabel">Javascript</div>
+						<img className="skillItem" src={js} alt="Github"></img>
+						<div className="skillItemLabel">Javascript</div>
 					</div>
 					<div>
-						<img className="connectItem" src={node} alt="Gmail logo"></img>
-						<div className="connectItemLabel">Node.js</div>
+						<img className="skillItem" src={node} alt="Gmail logo"></img>
+						<div className="skillItemLabel">Node.js</div>
 					</div>
 					<div>
-						<img className="connectItem" src={react} alt="Linkedin"></img>
-						<div className="connectItemLabel">React.js</div>
+						<img className="skillItem" src={react} alt="Linkedin"></img>
+						<div className="skillItemLabel">React.js</div>
 					</div>
 					<div>
-						<img className="connectItem" src={mongoDB} alt="Github"></img>
-						<div className="connectItemLabel">MongoDB</div>
+						<img className="skillItem" src={mongoDB} alt="Github"></img>
+						<div className="skillItemLabel">MongoDB</div>
 					</div>
 
 					<div>
-						<img className="connectItem" src={git} alt="Gmail logo"></img>
-						<div className="connectItemLabel">Git</div>
+						<img className="skillItem" src={git} alt="Gmail logo"></img>
+						<div className="skillItemLabel">Git</div>
 					</div>
 					<div>
-						<img className="connectItem" src={github} alt="Linkedin"></img>
-						<div className="connectItemLabel">GitHub</div>
+						<img className="skillItem" src={github} alt="Linkedin"></img>
+						<div className="skillItemLabel">GitHub</div>
 					</div>
-				</div>
-				<div className="footerBottom">
-					<div className="footerBottomLine"></div>
-					<div className="bottomName">Corey Shafer</div>
-					<div className="footerBottomLine"></div>
 				</div>
 			</div>
 		</div>

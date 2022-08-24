@@ -25,10 +25,11 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   display: flex;
+    display: flex;
     gap: 3rem;
     font-size: large;
     text-align: center;
+    
 }
 
 .connectItem {
@@ -36,9 +37,19 @@
  margin: 1rem;
 }
 
+.connectItem:hover {
+    top: -10px;
+    cursor: pointer;
+  }
+
 .connectItemLabel {
  font-size: 2rem;
 }
+
+.connectItemLabel:hover {
+    top: -10px;
+    cursor: pointer;
+  }
 
 .headerLine {
     width: 100%;

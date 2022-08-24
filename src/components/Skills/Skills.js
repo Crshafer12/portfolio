@@ -67,6 +67,48 @@ function Skills({ refProp }) {
 					</div>
 				</div>
 			</div>
+			<div className="contactSection" ref={refProp}>
+				<div className="connectItems">
+					<div>
+						<img className="connectItem" src={HTML} alt="Gmail logo"></img>
+						<div className="connectItemLabel">HTML5</div>
+					</div>
+					<div>
+						<img className="connectItem" src={css} alt="Linkedin"></img>
+						<div className="connectItemLabel">CSS3</div>
+					</div>
+					<div>
+						<img className="connectItem" src={js} alt="Github"></img>
+						<div className="connectItemLabel">Javascript</div>
+					</div>
+					<div>
+						<img className="connectItem" src={node} alt="Gmail logo"></img>
+						<div className="connectItemLabel">Node.js</div>
+					</div>
+					<div>
+						<img className="connectItem" src={react} alt="Linkedin"></img>
+						<div className="connectItemLabel">React.js</div>
+					</div>
+					<div>
+						<img className="connectItem" src={mongoDB} alt="Github"></img>
+						<div className="connectItemLabel">MongoDB</div>
+					</div>
+
+					<div>
+						<img className="connectItem" src={git} alt="Gmail logo"></img>
+						<div className="connectItemLabel">Git</div>
+					</div>
+					<div>
+						<img className="connectItem" src={github} alt="Linkedin"></img>
+						<div className="connectItemLabel">GitHub</div>
+					</div>
+				</div>
+				<div className="footerBottom">
+					<div className="footerBottomLine"></div>
+					<div className="bottomName">Corey Shafer</div>
+					<div className="footerBottomLine"></div>
+				</div>
+			</div>
 		</div>
 	);
 }

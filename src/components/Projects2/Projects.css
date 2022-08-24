@@ -55,20 +55,11 @@
   font-size: 5rem;
 }
 
-
-
-.container  {
-
-
-}
 .projects {
   display: flex;
   justify-content: center;
   padding: 2rem 2rem;
   gap: 4rem;
-  
-  /* align-items: center;
-  flex-wrap: wrap; */
 }
 
 @media screen and (max-width: 1350px) {

@@ -12,6 +12,7 @@
 
 .resumeTab, .projectsTab, .contactTab, .skillsTab, .mainTab {
     text-align: center;
+    width: 10rem;
 }
 
 .projectsTab:hover, .contactTab:hover, .resumeTab:hover, .skillsTab:hover, .mainTab:hover {
@@ -28,10 +29,6 @@
 
 .resumeTab:hover::after {
     content: "View in Browser";
-}
-
-.resumeTab, .projectsTab, .contactTab, .skillsTab, .mainTab {
-    width: 10rem;
 }
 
 .contactTab{
@@ -53,19 +50,12 @@
     background-color: #1b1b1b;
 }
 
-
 @media screen and (max-width: 1400px) {
  
-
     .navBar {
         gap: 1rem;
         justify-content: space-evenly;
         font-size: 1.2rem;
         width: 100%;
     }
-
-    .resumeTab, .projectsTab, .contactTab, .skillsTab, .mainTab{
-      
-    }
-
 }

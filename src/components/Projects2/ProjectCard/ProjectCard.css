@@ -19,10 +19,6 @@
   object-fit: cover;
 }
 
-.imageContainer img {
-
-}
-
 .info {
   display: flex;
   flex-direction: column;
@@ -107,7 +103,6 @@
 }
 
 @media screen and (max-width: 800px) {
-
 
   .description {
     font-size: 0.9rem;

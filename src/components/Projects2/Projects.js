@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 //import img from "../../images/Capture.png";
 import img from "../../images/placeholder.PNG";
 
-import data from "./projects.json";
+import data from "./projectList";
 const Projects = ({ refProp }) => {
 	const [projects, setProjects] = useState([]);
 
@@ -15,7 +15,7 @@ const Projects = ({ refProp }) => {
 					<ProjectCard
 						projectTitle={project.title}
 						projectDescription={project.description}
-						projectImgAddress={img}
+						projectImgAddress={project.imgAddress}
 						gitHubLink={project.githubLink}
 						demoLink={project.demoLink}
 						stack={project.stack}

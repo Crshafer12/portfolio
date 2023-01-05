@@ -17,6 +17,7 @@
   height: 300px;
   position: relative;
   object-fit: cover;
+  display: flex;
 }
 
 .info {

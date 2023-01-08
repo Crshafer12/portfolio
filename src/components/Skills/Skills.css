@@ -61,8 +61,12 @@
     text-align: center;
 }
 
+.skillHeight{
+ min-height: 335px;;
+}
+
 .skillItem {
- max-width: 226px;
+ /* max-width: 226px; */
  margin: 1rem;
 }
 
@@ -73,8 +77,8 @@
 
 .skillItemLabel {
  font-size: 2rem;
+vertical-align:bottom;
 }
-
 .skillItemLabel:hover {
     top: -10px;
     cursor: pointer;

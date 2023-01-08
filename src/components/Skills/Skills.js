@@ -69,36 +69,35 @@ function Skills({ refProp }) {
 			{/* </div> */}
 			<div className="skillsSection" ref={refProp}>
 				<div className="skillsItems">
-					<div>
+					<div className="skillHeight">
 						<img className="skillItem" src={HTML} alt="Gmail logo"></img>
 						<div className="skillItemLabel">HTML5</div>
 					</div>
-					<div>
+					<div className="skillHeight">
 						<img className="skillItem" src={css} alt="Linkedin"></img>
 						<div className="skillItemLabel">CSS3</div>
 					</div>
-					<div>
+					<div className="skillHeight">
 						<img className="skillItem" src={js} alt="Github"></img>
 						<div className="skillItemLabel">Javascript</div>
 					</div>
-					<div>
+					<div className="skillHeight">
 						<img className="skillItem" src={node} alt="Gmail logo"></img>
 						<div className="skillItemLabel">Node.js</div>
 					</div>
-					<div>
+					<div className="skillHeight">
 						<img className="skillItem" src={react} alt="Linkedin"></img>
 						<div className="skillItemLabel">React.js</div>
 					</div>
-					<div>
+					<div className="skillHeight">
 						<img className="skillItem" src={mongoDB} alt="Github"></img>
 						<div className="skillItemLabel">MongoDB</div>
 					</div>
-
-					<div>
+					<div className="skillHeight">
 						<img className="skillItem" src={git} alt="Gmail logo"></img>
 						<div className="skillItemLabel">Git</div>
 					</div>
-					<div>
+					<div className="skillHeight">
 						<img className="skillItem" src={github} alt="Linkedin"></img>
 						<div className="skillItemLabel">GitHub</div>
 					</div>

@@ -15,7 +15,7 @@ function contact({ refProp }) {
 			<header className="headerAndDescription">
 				<div className="headerLeft">Contact Me</div>
 				<div className="dividerLine"></div>
-				<div className="headerRight">Contact me description.</div>
+				{/* <div className="headerRight">Contact me description.</div> */}
 			</header>
 
 			<div className="connectItems">

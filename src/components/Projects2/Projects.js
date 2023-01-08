@@ -35,6 +35,8 @@ const Projects = ({ refProp }) => {
 			</div>
 			<div id="mywork" className="anchorMargin" />
 			<div className="container">
+				<div className="projects-mobile">Gradebook</div>
+				<div className="projects-mobile">Keeper App</div>
 				<div className="projects">{projects}</div>
 			</div>
 		</div>

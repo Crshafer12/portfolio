@@ -32,15 +32,18 @@ const Projects = ({ refProp }) => {
 				</div>
 			</div>
 			<div id="mywork" className="anchorMargin" />
+
 			<div className="container">
-				<div className="projects-mobile" href="https://gradebook-089g.onrender.com">
-					Gradebook
-				</div>
-				<img className="projects-mobile" href="https://gradebook-089g.onrender.com" alt="gradebook" src="images/gradebook/GradebookPreview50.PNG" />
-				<div className="projects-mobile" href="https://gradebook-089g.onrender.com">
-					Keeper App
-				</div>
-				<img className="projects-mobile" href="https://keeperapp.onrender.com/" alt="keeper" src="images/keeper/KeeperPreview50.PNG" />
+				<a className="projects-mobile sitePic" href="https://gradebook-089g.onrender.com" target="_blank" rel="noopener noreferrer">
+					<div className=" sitetitle">Gradebook</div>
+					<img className="projects-mobile sitePic" href="https://gradebook-089g.onrender.com" alt="gradebook" src="images/gradebook/GradebookPreview50.PNG" />
+				</a>
+
+				<a className="projects-mobile" href="https://keeperapp.onrender.com/" target="_blank" rel="noopener noreferrer">
+					<div className="sitetitle">Keeper App</div>
+					<img className="projects-mobile sitePic" href="https://keeperapp.onrender.com/" alt="keeper" src="images/keeper/KeeperPreview50.PNG" />
+				</a>
+
 				<div className="projects">{projects}</div>
 			</div>
 		</div>

@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Projects.css";
 import ProjectCard from "./ProjectCard/ProjectCard";
-//import img from "../../images/Capture.png";
-import img from "../../images/placeholder.PNG";
 
 import data from "./projectList";
 const Projects = ({ refProp }) => {
@@ -35,8 +33,14 @@ const Projects = ({ refProp }) => {
 			</div>
 			<div id="mywork" className="anchorMargin" />
 			<div className="container">
-				<div className="projects-mobile">Gradebook</div>
-				<div className="projects-mobile">Keeper App</div>
+				<div className="projects-mobile" href="https://gradebook-089g.onrender.com">
+					Gradebook
+				</div>
+				<img className="projects-mobile" href="https://gradebook-089g.onrender.com" alt="gradebook" src="images/gradebook/GradebookPreview50.PNG" />
+				<div className="projects-mobile" href="https://gradebook-089g.onrender.com">
+					Keeper App
+				</div>
+				<img className="projects-mobile" href="https://keeperapp.onrender.com/" alt="keeper" src="images/keeper/KeeperPreview50.PNG" />
 				<div className="projects">{projects}</div>
 			</div>
 		</div>

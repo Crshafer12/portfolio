@@ -83,6 +83,7 @@
 @media screen and (max-width : 3000px){
   .projects-mobile{
   visibility:hidden;
+  max-height: 1em;
   }
 }
 @media screen and (max-width : 906px){

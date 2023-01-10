@@ -6,10 +6,6 @@ import Projects from "./components/Projects2/Projects";
 import Contact from "./components/Contact/contact";
 import { useRef } from "react";
 
-// function createCard(contact) {
-// 	return <ContactCard img={contact.img} />;
-// }
-
 function App() {
 	const headerRef = useRef();
 	const mainRef = useRef();

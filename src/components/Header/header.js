@@ -33,7 +33,6 @@ function Header({ refProp, mainProp, skillsProp, projectsProp, contactProp }) {
 			<div>
 				<nav className="navBar">
 					<a className="resumeTab" id="bruh" target="_blank" href={resume}></a>
-
 					<div className="mainTab" onClick={scrollToMain}>
 						Home
 					</div>

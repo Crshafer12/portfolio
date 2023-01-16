@@ -6,7 +6,7 @@ export const data = [
 		imgAddress: require("../../images/gradebook/GradebookPreview.PNG"),
 		githubLink: "https://github.com/Crshafer12/portfolio",
 		demoLink: "https://gradebook-089g.onrender.com",
-		stack: ["Javascript", "Node.js", "EJS"],
+		stack: ["Javascript", "Express.js", "Node.js", "EJS", "MongoDB"],
 	},
 	{
 		title: "Keeper App",
@@ -14,7 +14,7 @@ export const data = [
 		imgAddress: require("../../images/keeper/KeeperPreview.PNG"),
 		githubLink: "https://github.com/Crshafer12/portfolio",
 		demoLink: "https://keeperapp.onrender.com/",
-		stack: ["React.js", "Node.js", "Javascript"],
+		stack: ["React.js", "Javascript", "Node.js"],
 	},
 ];
 

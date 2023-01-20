@@ -15,7 +15,7 @@ function Main({ refProp }) {
 					</div>
 					<div className="pictureAndDescription">
 						<img src={selfie} alt="selfie"></img>
-						<p className="description">I am a web developer who loves to create responsive, interactive websites</p>
+						<p className="description">I am a computer science student who loves to create responsive, interactive websites</p>
 					</div>
 				</div>
 				<div className="scrollDivContainer">

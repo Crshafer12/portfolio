@@ -136,6 +136,42 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .tools {
+    font-size: 0.8rem;
+    justify-content: space-evenly;
+    padding-bottom: .5rem;
+  }
+
+  .tools span {
+    margin-right: 0rem;
+  }
+
+  .links {
+    font-size: 0.8rem;
+  }
+
+  .links span {
+    margin-right: 0rem;
+    width: 50%;
+  }
+
+  .imageContainer {
+    height: 3px;
+    visibility: hidden;
+  }
+
+  .cardDescription {
+    text-align: center;
+  }
+}
+
+
 .underline {
   display: inline-block;
   position: relative;

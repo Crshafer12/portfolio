@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../test.pdf";
+import resume from "../../Corey_Shafer_Resume.pdf";
 import "./header.css";
 
 function Header({ refProp, mainProp, skillsProp, projectsProp, contactProp }) {

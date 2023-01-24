@@ -1,4 +1,4 @@
-.headerAndDescription{
+.headerAndDescription {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
     margin-top: 200px;
 }
 
-.contactSection{
+.contactSection {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@
     margin-bottom: 5rem;
 }
 
-.connectItems{
+.connectItems {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
     gap: 3rem;
     font-size: large;
     text-align: center;
-    
+
 }
 
 .connectItem {
@@ -37,16 +37,16 @@
 .connectItem:hover {
     top: -10px;
     cursor: pointer;
-  }
+}
 
 .connectItemLabel {
- font-size: 2rem;
+    font-size: 2rem;
 }
 
 .connectItemLabel:hover {
     top: -10px;
     cursor: pointer;
-  }
+}
 
 .headerLine {
     width: 100%;
@@ -93,7 +93,7 @@
     text-align: center;
 }
 
-  @media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
     .headerAndDescription {
         flex-direction: column;
         gap: 1rem;

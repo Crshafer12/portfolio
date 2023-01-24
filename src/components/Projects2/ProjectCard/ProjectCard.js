@@ -29,13 +29,13 @@ const ProjectCard = ({ projectTitle, projectDescription, projectImgAddress, gitH
 
 	return (
 		<div className="projectCard">
+			<h3 className="projectTitle">
+				<span>{projectTitle}</span>
+			</h3>
 			<div className="imageContainer">
 				<img src={projectImgAddress} alt={projectTitle} />
 			</div>
 			<div className="info">
-				<h3 className="projectTitle">
-					<span>{projectTitle}</span>
-				</h3>
 				<div className="tools">{tools}</div>
 				<div className="cardDescription">
 					<p>{projectDescription}</p>

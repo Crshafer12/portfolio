@@ -308,9 +308,22 @@ a {
 }
 
 @media screen and (max-width: 1100px) {
+    .mainDiv, .roundBoys {
+        flex-direction: column;
+        /* gap: 3rem; */
+        padding-top: 5rem;
+    }
+
+    .skillsDiv {
+        flex-direction: column;
+        /* gap: 3rem; */
+        padding-top: 10rem;
+    }
+
     .nameAndPic {
         flex-direction: column;
         gap: 3rem;
+        /* padding-top: 5rem; */
     }
 
     .navBar {

@@ -1,5 +1,5 @@
 import React from "react";
-import selfie from "../../images/Profile Pic.png";
+import selfie from "../../images/Corey_Picture.jpg";
 //import resume from "../Resume.pdf";
 import "./main.css";
 
